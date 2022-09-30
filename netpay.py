@@ -30,6 +30,6 @@ def show_NetPay(employee):
         print('ID Number: ', m.get_id())
         print('Department: ', m.get_dep())
         print('Gross Pay: $', m.get_salary())
-        print('Net Pay: $', format(m.get_salary() - deductions))
+        print('Net Pay: $', format(m.get_salary() - enter_deductions()))
 
 main()
